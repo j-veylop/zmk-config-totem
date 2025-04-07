@@ -148,10 +148,10 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-            &kp Q        &kp W        &kp F         &kp P          &kp B                          &kp J                         &kp L         &kp U         &kp Y        &kp APOS
-            &hml LGUI A  &hml LALT R  &hml LCTRL S  &hml LSHIFT T  &hml LS(LA(LC(LEFT_GUI))) G    &hmr RS(RC(RA(RIGHT_GUI))) M  &hmr RSHFT N  &hmr RCTRL E  &hmr RALT I  &hmr RGUI O
-&kp ESCAPE  &kp Z        &kp X        &kp C         &kp D          &kp V                          &kp K                         &kp H         &kp COMMA     &kp DOT      &kp FSLH     &kp SEMI
-                                      &kp DELETE    &mo 1          &mt LEFT_SHIFT TAB             &kp SPACE                     &mo 2         &lt 3 BSPC
+          &kp Q        &kp W        &kp F         &kp P          &kp B                          &kp J                         &kp L         &kp U         &kp Y        &kp APOS
+          &hml LGUI A  &hml LALT R  &hml LCTRL S  &hml LSHIFT T  &hml LS(LA(LC(LEFT_GUI))) G    &hmr RS(RC(RA(RIGHT_GUI))) M  &hmr RSHFT N  &hmr RCTRL E  &hmr RALT I  &hmr RGUI O
+&kp SEMI  &kp Z        &kp X        &kp C         &kp D          &kp V                          &kp K                         &kp H         &kp COMMA     &kp DOT      &kp FSLH     &kp COLON
+                                    &kp DELETE    &lt 1 ESC      &mt LEFT_SHIFT TAB             &kp SPACE                     &mo 2         &lt 3 BSPC
             >;
         };
 
