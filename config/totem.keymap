@@ -35,56 +35,67 @@
         combo_lpar {
             bindings = <&kp LPAR>;
             key-positions = <3 13>;
+            layers = <0>;
         };
 
         combo_rpar {
             bindings = <&kp RPAR>;
             key-positions = <6 16>;
+            layers = <0>;
         };
 
         combo_lbrckt {
             bindings = <&kp LEFT_BRACKET>;
             key-positions = <2 12>;
+            layers = <0>;
         };
 
         combo_rbrckt {
             bindings = <&kp RIGHT_BRACKET>;
             key-positions = <7 17>;
+            layers = <0>;
         };
 
         combo_lbrce {
             bindings = <&kp LBRC>;
             key-positions = <1 11>;
+            layers = <0>;
         };
 
         combo_rbrce {
             bindings = <&kp RBRC>;
             key-positions = <18 8>;
+            layers = <0>;
         };
 
         combo_enter {
             bindings = <&kp ENTER>;
-            key-positions = <36 33>;
+            key-positions = <36 35>;
+            layers = <0>;
         };
 
         combo_tab {
             bindings = <&kp TAB>;
             key-positions = <11 12>;
+            layers = <0>;
         };
 
         combo_minus {
             bindings = <&kp MINUS>;
             key-positions = <1 2>;
+            layers = <0>;
         };
 
         combo_eq {
             bindings = <&kp EQUAL>;
             key-positions = <7 8>;
+            layers = <0>;
         };
 
         combo_git_all {
             bindings = <&git_all>;
             key-positions = <10 13 14>;
+            layers = <0>;
         };
     };
 
