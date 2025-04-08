@@ -233,6 +233,16 @@
             >;
         };
 
+        sym_layer {
+            label = "SYM";
+            bindings = <
+           &kp LBRC   &kp AMPS    &kp ASTRK    &kp LPAR   &kp RBRC    &trans  &trans           &trans    &trans     &trans
+           &kp COLON  &kp DOLLAR  &kp PERCENT  &kp CARET  &kp PLUS    &trans  &kp RIGHT_SHIFT  &kp RALT  &kp RCTRL  &kp RGUI
+&kp UNDER  &kp TILDE  &kp EXCL    &kp AT       &kp POUND  &kp PIPE    &trans  &trans           &trans    &trans     &trans    &trans
+                                  &kp LPAR     &kp RPAR   &trans      &trans  &trans           &trans
+            >;
+        };
+
         // ▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄
         // ▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄
     };
