@@ -95,11 +95,13 @@
         combo_grave {
             bindings = <&kp GRAVE>;
             key-positions = <0 10>;
+            layers = <0>;
         };
 
         combo_backslash {
             bindings = <&kp BACKSLASH>;
             key-positions = <9 19>;
+            layers = <0>;
         };
     };
 
