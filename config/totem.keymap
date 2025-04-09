@@ -109,6 +109,54 @@
             key-positions = <13 16>;
             layers = <0>;
         };
+
+        como_excl {
+            bindings = <&kp EXCL>;
+            key-positions = <21 10>;
+            layers = <0>;
+        };
+
+        combo_at {
+            bindings = <&kp AT>;
+            key-positions = <22 11>;
+            layers = <0>;
+        };
+
+        combo_hash {
+            bindings = <&kp HASH>;
+            key-positions = <12 23>;
+            layers = <0>;
+        };
+
+        combo_dollar {
+            bindings = <&kp DOLLAR>;
+            key-positions = <13 24>;
+            layers = <0>;
+        };
+
+        combo_percent {
+            bindings = <&kp PERCENT>;
+            key-positions = <16 27>;
+            layers = <0>;
+        };
+
+        combo_caret {
+            bindings = <&kp CARET>;
+            key-positions = <28 17>;
+            layers = <0>;
+        };
+
+        combo_amp {
+            bindings = <&kp AMPS>;
+            key-positions = <29 18>;
+            layers = <0>;
+        };
+
+        combo_star {
+            bindings = <&kp STAR>;
+            key-positions = <19 30>;
+            layers = <0>;
+        };
     };
 
     behaviors {
@@ -163,10 +211,10 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-       &kp Q        &kp W        &kp F         &kp P          &kp B                   &kp J                 &kp L         &kp U            &kp Y        &kp APOS
-       &hml LGUI A  &hml RALT R  &hml LCTRL S  &hml LSHIFT T  &hml LS(LA(LCTRL)) G    &hmr LS(LA(LCTRL)) M  &hmr RSHFT N  &hmr RCTRL E     &hmr LALT I  &hmr RGUI O
-&mo 4  &kp Z        &kp X        &kp C         &kp D          &kp V                   &kp K                 &kp H         &kp COMMA        &kp DOT      &kp FSLH     &kp SEMI
-                                 &kp DEL       &kp LSHIFT     &lt 1 ESC               &mo 2                 &kp SPACE     &lt 3 BACKSPACE
+         &kp Q        &kp W        &kp F         &kp P          &kp B                   &kp J                 &kp L         &kp U          &kp Y        &kp APOS
+         &hml LGUI A  &hml RALT R  &hml LCTRL S  &hml LSHIFT T  &hml LS(LA(LCTRL)) G    &hmr LS(LA(LCTRL)) M  &hmr RSHFT N  &hmr RCTRL E   &hmr LALT I  &hmr RGUI O
+&kp ESC  &kp Z        &kp X        &kp C         &kp D          &kp V                   &kp K                 &kp H         &kp COMMA      &kp DOT      &kp FSLH     &kp SEMI
+                                   &kp DEL       &kp LSHIFT     &mo 1                   &mo 2                 &kp SPACE     &kp BACKSPACE
             >;
         };
 
@@ -192,7 +240,7 @@
         &trans        &trans    &trans     &trans          &trans               &trans    &trans         &trans        &trans     &trans
         &kp LEFT_GUI  &kp LALT  &kp LCTRL  &kp LEFT_SHIFT  &kp LS(LA(LCTRL))    &kp LEFT  &kp DOWN       &kp UP_ARROW  &kp RIGHT  &caps_word
 &trans  &trans        &trans    &trans     &trans          &trans               &kp HOME  &kp PAGE_DOWN  &kp PG_UP     &kp END    &trans      &trans
-                                &trans     &trans          &trans               &trans    &trans         &trans
+                                &trans     &trans          &trans               &mo 3     &trans         &trans
             >;
         };
 
@@ -218,7 +266,7 @@
            &kp LEFT_BRACKET  &kp N7        &kp N8        &kp N9        &kp RIGHT_BRACKET    &trans             &trans           &trans     &trans    &trans
            &kp SEMICOLON     &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp EQUAL            &kp LS(LA(LCTRL))  &kp RIGHT_SHIFT  &kp RCTRL  &kp RALT  &kp RGUI
 &kp MINUS  &kp GRAVE         &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp BACKSLASH        &trans             &trans           &trans     &trans    &trans    &trans
-                                           &kp PERIOD    &kp N0        &trans               &trans             &trans           &trans
+                                           &kp PERIOD    &kp N0        &mo 3                &trans             &trans           &trans
             >;
         };
 
@@ -246,17 +294,6 @@
 &trans  &kp F10  &kp F1  &kp F2  &kp F3  &kp C_BRI_DEC       &kp C_VOLUME_DOWN  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_CLR_ALL
                          &trans  &trans  &trans              &trans             &trans        &trans
             >;
-        };
-
-        sym_layer {
-            bindings = <
-        &trans    &trans    &trans     &trans     &trans    &trans  &kp AMPS    &kp STAR     &kp LEFT_PARENTHESIS  &trans
-        &kp LGUI  &kp LALT  &kp LCTRL  &kp LSHFT  &trans    &trans  &kp DOLLAR  &kp PERCENT  &kp CARET             &trans
-&trans  &trans    &trans    &trans     &trans     &trans    &trans  &kp EXCL    &kp AT       &kp POUND             &trans  &trans
-                            &trans     &trans     &trans    &trans  &kp RPAR    &trans
-            >;
-
-            label = "SYM";
         };
 
         // ▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄
