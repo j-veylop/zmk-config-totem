@@ -130,7 +130,7 @@
 
         combo_dollar {
             bindings = <&kp DOLLAR>;
-            key-positions = <21 10>;
+            key-positions = <19 30>;
             layers = <0>;
         };
 
