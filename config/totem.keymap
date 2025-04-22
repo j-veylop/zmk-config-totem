@@ -31,6 +31,11 @@
 
 &soft_off { hold-time-ms = <1000>; };
 
+&mmv {
+    acceleration-exponent = <2>;
+    time-to-max-speed-ms = <300>;
+};
+
 / {
     combos {
         compatible = "zmk,combos";
