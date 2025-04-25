@@ -170,6 +170,30 @@
             bindings = <&mo 3>;
             key-positions = <34 35>;
         };
+
+        combo_esc {
+            bindings = <&kp ESC>;
+            key-positions = <0 1>;
+            layers = <0>;
+        };
+
+        combo_underscore {
+            bindings = <&kp UNDER>;
+            key-positions = <22 23>;
+            layers = <0>;
+        };
+
+        combo_plus {
+            bindings = <&kp PLUS>;
+            key-positions = <29 28>;
+            layers = <0>;
+        };
+
+        combo_colon {
+            bindings = <&kp COLON>;
+            key-positions = <6 9>;
+            layers = <0>;
+        };
     };
 
     behaviors {
